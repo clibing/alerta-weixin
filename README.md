@@ -33,11 +33,7 @@ USER_ID = '' # user1|user2  or @all
 TAG_ID = 11
 ```
 
-Note: By default the AMQP plugin is configured to use MongoDB as the
-AMQP transport so it is not necessary to install RabbitMQ or some other
-messaging backbone to make use of this plugin.
-
-**RabbitMQ Example**
+**Example**
 
 ```python
 PLUGINS = ['reject','alerta_weixin']
@@ -67,4 +63,4 @@ References
 License
 -------
 
-Copyright (c) 2016 Nick Satterly. Available under the MIT License.
+Copyright (c) 2016 Linuxcyrpt.cn. Available under the MIT License.
